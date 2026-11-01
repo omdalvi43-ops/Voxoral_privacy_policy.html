@@ -1,0 +1,282 @@
+### Privacy Policy 
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Voxoral</title>
+    <style>
+        :root {
+            --primary-color: #3A86FF;
+            --accent-color: #FFBE0B;
+            --bg-color: #F8F9FA;
+            --card-bg: #FFFFFF;
+            --text-primary: #1E293B;
+            --text-secondary: #475569;
+            --border-color: #E2E8F0;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #0F172A;
+                --card-bg: #1E293B;
+                --text-primary: #F8FAFC;
+                --text-secondary: #94A3B8;
+                --border-color: #334155;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.65;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 8px;
+        }
+
+        .header .meta {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            margin-top: 32px;
+            margin-bottom: 14px;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: "";
+            display: inline-block;
+            width: 4px;
+            height: 1.2rem;
+            background: var(--accent-color);
+            margin-right: 10px;
+            border-radius: 2px;
+        }
+
+        p {
+            margin-bottom: 14px;
+            color: var(--text-secondary);
+        }
+
+        ul {
+            margin-left: 24px;
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--text-primary);
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(58, 134, 255, 0.12);
+            color: var(--primary-color);
+            padding: 3px 10px;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .callout {
+            background: rgba(255, 190, 11, 0.1);
+            border-left: 4px solid var(--accent-color);
+            padding: 16px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+
+        .callout p {
+            margin-bottom: 0;
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+
+        a:hover {
+            opacity: 0.85;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <span class="badge">Google Play Store Compliant</span>
+        <h1>Privacy Policy for Voxoral</h1>
+        <div class="meta">
+            <strong>Application:</strong> Voxoral &bull; 
+            <strong>Package Name:</strong> com.voxoral.app &bull; 
+            <strong>Effective Date:</strong> November 1, 2026
+        </div>
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>
+        Welcome to <strong>Voxoral</strong> ("we", "our", or "us"). We respect your privacy and are committed to protecting any information that may be gathered while using our application. This Privacy Policy outlines what information we collect, how it is used, how it is protected, and your rights regarding your data.
+    </p>
+    <p>
+        By downloading, installing, or using Voxoral, you agree to the collection and use of information in accordance with this Privacy Policy.
+    </p>
+
+    <h2>2. Summary of Core Principles</h2>
+    <div class="callout">
+        <p>
+            &bull; Voice audio is processed in real time solely to evaluate your pronunciation during practice and is <strong>never stored, saved, or uploaded to any server</strong>.<br>
+            &bull; Documents (PDFs, images, pasted text) are processed <strong>100% locally on your device</strong> using on-device optical character recognition.<br>
+            &bull; We do not require account registration, passwords, or personal identity profiles.
+        </p>
+    </div>
+
+    <h2>3. Information We Collect and Process</h2>
+
+    <p><strong>A. Audio & Microphone Data</strong></p>
+    <p>
+        To enable voice-powered speech recitation, Voxoral requests access to your device's microphone (<code>android.permission.RECORD_AUDIO</code>).
+    </p>
+    <ul>
+        <li>Microphone input is converted to text using your device's built-in Android Speech Recognition service.</li>
+        <li>Your spoken audio is never saved as audio files, never transmitted to our private servers, and never used for biometric profiling or speaker identification.</li>
+        <li>Audio stream processing ceases immediately when a practice session is paused, stopped, or completed.</li>
+    </ul>
+
+    <p><strong>B. Document & Text Content</strong></p>
+    <p>
+        When you select a document (PDF, image, or text snippet) to study, the text extraction is executed on-device using Google ML Kit On-Device Text Recognition. Your documents remain strictly in your device's private app storage sandbox and are never uploaded to any remote server or third-party cloud.
+    </p>
+
+    <p><strong>C. Practice Statistics & Preferences</strong></p>
+    <p>
+        Voxoral stores your practice history (accuracy percentages, duration, words memorized, and animation style preferences) in a local SQLite database directly on your device. This data is not synchronized to any remote database.
+    </p>
+
+    <p><strong>D. Automatically Collected Diagnostic & Advertising Data (Google AdMob)</strong></p>
+    <p>
+        We use <strong>Google AdMob</strong> to display advertisements within the application (including App Open ads, Style Video ads, Interstitial ads, and Native Advanced ads). Google AdMob and its advertising partners may collect and process certain non-personally identifiable information automatically, such as:
+    </p>
+    <ul>
+        <li>Google Advertising ID (AAID) and device identifiers.</li>
+        <li>IP address (for coarse geographic location and regional ad delivery).</li>
+        <li>App performance, ad interaction statistics, and diagnostic logs.</li>
+    </ul>
+
+    <h2>4. Third-Party Services & Advertising</h2>
+    <p>
+        We partner with third-party service providers to facilitate and monetize our service. These third parties have access to your data only as necessary to perform advertising and service measurement tasks:
+    </p>
+    <ul>
+        <li>
+            <strong>Google AdMob & Google Play Services:</strong><br>
+            AdMob delivers personalized or non-personalized advertisements based on your device settings and applicable privacy regulations (such as GDPR and CCPA).<br>
+            Review Google's Privacy & Terms: 
+            <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/ads</a> and 
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a>.
+        </li>
+    </ul>
+    <p>
+        You can opt out of personalized advertising at any time through your Android device settings by navigating to:
+        <em>Settings &rarr; Google &rarr; Ads &rarr; Delete advertising ID or Opt out of Ads Personalization</em>.
+    </p>
+
+    <h2>5. Android Permissions Used</h2>
+    <ul>
+        <li><code>RECORD_AUDIO</code>: Required to listen to your voice recitation during practice sessions to automatically detect and uncover matching word boxes.</li>
+        <li><code>INTERNET</code>: Required to request and display advertisements via Google AdMob and receive speech recognition service tokens.</li>
+        <li><code>VIBRATE</code>: Provides subtle tactile feedback on correct pronunciations and error indications.</li>
+    </ul>
+
+    <h2>6. Data Retention & Deletion</h2>
+    <p>
+        All practice history, accuracy records, and user preferences are retained locally on your device. You retain full control over your data:
+    </p>
+    <ul>
+        <li><strong>Delete Individual Records:</strong> You can delete any practice record directly inside the app by opening the History tab and tapping the delete icon.</li>
+        <li><strong>Complete Deletion:</strong> Clearing app data in Android Settings or uninstalling the app permanently purges all local databases and saved records from your device.</li>
+    </ul>
+
+    <h2>7. Children's Privacy</h2>
+    <p>
+        Voxoral does not knowingly collect personally identifiable information from children under the age of 13 (or 16 in the European Union). Because we do not collect personal identities, names, or contact info, no child's profile is created. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us so we can take immediate corrective measures.
+    </p>
+
+    <h2>8. Security</h2>
+    <p>
+        We value your trust in providing us your information. Voxoral processes your study materials and audio locally on your device within Android's protected application sandbox. No sensitive personal files or voice recordings are transmitted across the internet to our servers.
+    </p>
+
+    <h2>9. Changes to This Privacy Policy</h2>
+    <p>
+        We may update our Privacy Policy periodically to reflect app updates or legal requirements. Any modifications will be posted on this page with an updated "Effective Date". We encourage you to review this Privacy Policy periodically for any changes.
+    </p>
+
+    <h2>10. Contact Us</h2>
+    <p>
+        If you have any questions, feedback, or inquiries regarding this Privacy Policy or your data, please contact our support team at:
+    </p>
+    <p>
+        <strong>Email:</strong> <a href="mailto:support@voxoral.app">support@voxoral.app</a><br>
+        <strong>App:</strong> Voxoral (com.voxoral.app)
+    </p>
+
+    <div class="footer">
+        &copy; 2026 Voxoral. All rights reserved.
+    </div>
+</div>
+
+</body>
+</html>
+```
+
